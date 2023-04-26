@@ -7,7 +7,6 @@ public class TaskEntity {
     String dateEnd;
     private ArrayList<String> resources;
     public TaskEntity(){
-        System.out.println("Hola");
     }
 
     public String getIdTask() {
