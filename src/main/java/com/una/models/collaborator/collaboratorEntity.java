@@ -1,7 +1,5 @@
 package com.una.models.collaborator;
-
 import com.una.models.Person;
-
 public class collaboratorEntity extends Person {
     String speciality;
     boolean active;
