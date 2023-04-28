@@ -68,7 +68,7 @@ public class collaboratorContainer {
                 case 6:
                     System.out.println("Enter the new status: ");
                     String newStatus = sc.nextLine();
-                    collaborator.isActive(newStatus);
+                    collaborator.isActive();
                     return "Collaborator status updated successfully.";
 
                 default:
